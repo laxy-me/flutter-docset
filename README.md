@@ -5,7 +5,7 @@
 Open `Preferences` of the Dash menu, then navigate to the `Downloads` tab. After that, click the + button at the bottom of the window. Add this URL for 'Docset Feed URL':
 
 ```
-https://github.com/talkeryang/flutter-docset@master/flutter.xml
+https://cdn.jsdelivr.net/gh/talkeryang/flutter-docset@master/flutter.xml
 ```
 
 Finally, click the 'Download' button of the newly added `flutter` docset.
