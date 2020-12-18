@@ -18,4 +18,10 @@ Finally, click the 'Download' button of the newly added `flutter` docset.
     - For Mac users: `brew install dashing`
     - For other users: `go get -u github.com/technosophos/dashing`
 4. Run the script `dev/bots/docs.sh` to build the flutter docs locally. It should take more than 10 minutes.
-5. If commond interrupted with an exception like Dashing docset generation failed you should generate docsets by your self.It should take more than 10 minutes.
+5. If commond interrupted with an exception like Dashing docset generation failed you should generate docsets by your self.It should take more than 10 minutes.  
+
+```
+dashing build --source ./doc --config ./dashing.json
+```
+
+
